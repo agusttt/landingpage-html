@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+:root {
+	--strong-green: #2B788B;
+	--smooth-green: #C3DCE3;
+	--grey-color-paragraph: #757575;
+	--white-color-background: #Fff;
+	--grey-color-background: #F6F5F4;
+	--grey-color-line: #E0E0E0;
+	--black-color-text: #000000;
+	--font-monserat: "Montserrat", sans-serif;
+	--font-dela-gotic: "Dela Gothic One", sans-serif;
+}
+
+body {
+	background: var(--grey-color-background);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	max-width: 1085px;
+	margin: 0 auto;
+}
+
+#logo {
+	font-family: 'Dela Gothic One', cursive;
+	font-size: 28px;
+	color: #000;
+	text-decoration: none;
+}
+
+.header .content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .left {
+	display: flex;
+	align-items: center;
+}
+
+.header .content ul {
+	display: flex;
+	border-left: 1px solid #e0e0e0;
+	margin-left: 38px;
+}
+
+.header .content ul li {
+	list-style: none;
+}
+
+.header .content ul li a {
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: #000;
+	padding: 6px 8px;
+	font-weight: 600;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+}
+
+.avatar-user {
+	background: #C3DCE3;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	color: #2B788B;
+}
+
+.name {
+	padding-left: 15px;
+}
+
+.sign-in-out {
+	padding-left: 15px;
+	font-family: var(--font-monserat);
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--black-color-text);
+}
+
+.sign-in-out a {
+	text-decoration: none;
+	outline: none;
+	color: var(--black-color-text);
+}
+
+.section-hero-image {
+	background: var(--grey-color-background);
+	width: 100%;
+	min-height: 654px;
+	display: flex;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	-ms-align-items: center;
+}
+
+.left-hero-image {
+	width: 46%;
+	height: auto;
+}
+
+.left-section-text {
+	width: 100%;
+	height: auto;
+}
+
+.left-hero-image h5 {
+	color: var(--strong-green);
+	font-size: 0.875rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.35px;
+	margin-bottom: 24px;
+}
+
+.left-hero-image h1 {
+	color: #000000;
+	font-size: 3rem;
+	line-height: 3.375rem;
+	font-family: "Dela Gothic One", sans-serif;
+	margin-bottom: 24px;
+}
+
+.left-hero-image p {
+	display: block;
+	margin: 36px 0px;
+	color: #757575;
+}
+
+.btn-primary {
+	background: #C3DCE3;
+	padding: 10px 16px;
+	color: #2B788B;
+	font-size: 0.875rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	border-radius: 29px;
+	clear: both;
+	text-decoration: none;
+}
+
+.left-section-infograph {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	-ms-align-items: center;
+}
+
+.infograph-column:first-child {
+	border-right: 1px solid #ededed;
+	margin-left: -48px;
+}
+
+.infograph-column {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	-ms-align-items: center;
+	margin: 36px 0px 46px 0px;
+	margin-left: 0px;
+	justify-content: center;
+}
+
+.infograph-icon-text {
+	width: auto;
+	display: flex;
+	align-items: center;
+	-ms-align-items: center;
+}
+
+.infograph-icon-text h2 {
+	color: #000000;
+	font-size: 2.813rem;
+	line-height: 3.25rem;
+	font-family: "Dela Gothic One", sans-serif;
+	margin: 15px 0px 10px 6px;
+}
+
+.infograph-icon-text h2 span {
+	color: #2B788B;
+	font-size: 3.2rem;
+	line-height: 3.25rem;
+	font-family: "Dela Gothic One", sans-serif;
+	font-weight: 800;
+	margin-left: 6px;
+}
+
+.infograph-column p {
+	margin: 0px;
+	width: 100%;
+	display: unset;
+	text-align: center;
+}
+
+.right-hero-image {
+	width: 54%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	-ms-justify-content: center;
+}
+
+.right-hero-image img {
+	max-width: 100%;
+	margin-right: -24px;
+}
+
+.left-second-section {
+	width: 54%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	-ms-justify-content: center;
+}
+
+.left-second-section img {
+	max-width: 100%;
+}
+
+.right-second-section {
+	width: 46%;
+	height: auto;
+	color: #757575;
+}
+
+.wording-second-section {
+	width: 100%;
+}
+
+.right-second-section h2 {
+	color: #000000;
+	font-size: 2.813rem;
+	line-height: 3.25rem;
+	font-family: "Dela Gothic One", sans-serif;
+}
+
+.right-second-section h2 {
+	color: #000000;
+	font-size: 2.813rem;
+	line-height: 3.25rem;
+	font-family: "Dela Gothic One", sans-serif;
+}
+
+.right-second-section p {
+	display: block;
+	margin: 32px 0px;
+}
+
+.interactive-second-section {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectiondua {
+	background: #fff;
+	min-height: 496px;
+	display: flex;
+	align-items: center;
+	padding: 24px 0px;
+}
+
+.wrp-icon-shoes {
+	background: #F2D4DC;
+	height: 144px;
+	width: 114px;
+	border-radius: 14.5px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	-ms-justify-content: center;
+	position: relative;
+}
+
+.wrp-icon-shoes::before {
+	content: " ";
+	background: #F2D4DC;
+	height: 144px;
+	width: 114px;
+	border-radius: 14.5px;
+	z-index: 3;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+
+.wrp-icon-shoes h6 {
+	font-size: 0.813rem;
+	line-height: 1.285rem;
+	color: #945069;
+	z-index: 3;
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
+	margin: 0 auto;
+}
+
+.wrp-icon-shoes img {
+	width: 117px;
+	z-index: 3;
+	position: relative;
+}
+
+.wrp-icon-shoes::after {
+	content: " ";
+	background: #fff;
+	height: 144px;
+	width: 114px;
+	border-radius: 14.5px;
+	z-index: 2;
+	position: absolute;
+	left: 0px;
+	top: -10px;
+}
+
+.wrp-icon-speaker {
+	background: #C3DCE3;
+	height: 143px;
+	width: 164px;
+	border-radius: 14.5px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	-ms-justify-content: center;
+	position: relative;
+	margin-left: 20px;
+}
+
+.wrp-icon-speaker::before {
+	content: " ";
+	background: #C3DCE3;
+	height: 144px;
+	width: 164px;
+	border-radius: 14.5px;
+	z-index: 3;
+	position: absolute;
+	left: 0px;
+	top: 24px;
+}
+
+.wrp-icon-speaker h6 {
+	font-size: 0.813rem;
+	line-height: 1.285rem;
+	color: #2B788B;
+	z-index: 3;
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
+	margin: 0 auto;
+}
+
+.wrp-icon-speaker::after {
+	content: " ";
+	background: #fff;
+	height: 144px;
+	width: 164px;
+	border-radius: 14.5px;
+	z-index: 2;
+	position: absolute;
+	left: 0px;
+	top: -10px;
+}
+
+.wrp-icon-speaker img {
+	z-index: 3;
+	position: relative;
+}
+
+.sectiondua {
+	background: var(--white-color-background);
+	min-height: 496px;
+	display: flex;
+	align-items: center;
+	padding: 24px 0px;
+}
+
+.right-section-tiga {
+	height: auto;
+	width: 54%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	-ms-justify-content: center;
+}
+
+.section-empat {
+	background: var(--white-color-background);
+	min-height: 496px;
+	display: flex;
+	align-items: center;
+	padding: 24px 0px;
+}
+
+.right-section-tiga img {
+	max-width: 100%;
+	margin: 0 auto
+}
+
+.left-section-empat {
+	height: auto;
+	width: 54%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	-ms-justify-content: center;
+}
+
+.left-section-empat img {
+	max-width: 100%;
+	margin: 0 auto
+}
+
+.footer {
+	background: #F6F5F4;
+	min-height: 50px;
+}
+
+.footer .top {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.footmenu {
+	display: flex;
+	padding-left: 0;
+}
+
+.footmenu li {
+	list-style: none;
+}
+
+.footmenu li a {
+	padding: 3px 10px;
+	padding-left: 10px;
+	display: block;
+	text-decoration: none;
+	outline: none;
+	font-family: var(--font-monserat);
+	font-size: 14.5px;
+	color: var(--black-color-text);
+}
+
+.footmenu li:first-child a {
+	padding-left: 0;
+}
+
+.footer .bottom {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 20px;
+	border-top: #E0E0E0 solid 2px;
+	padding-top: 30px;
+}
+
+.footer .bottom a {
+	margin-right: 10px;
+}
+
+.copyright {
+	font-size: 15px;
+	font-family: var(--font-monserat);
+	color: var(--black-color-text);
+}
